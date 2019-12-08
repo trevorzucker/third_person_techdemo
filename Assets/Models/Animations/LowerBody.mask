@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LowerBody
+  m_Mask: 00000000000000000000000001000000010000000000000000000000000000000000000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: default
+    m_Weight: 0
+  - m_Path: Pelvis
+    m_Weight: 1
+  - m_Path: Pelvis/LeftLeg
+    m_Weight: 1
+  - m_Path: Pelvis/LeftLeg/LeftThigh
+    m_Weight: 1
+  - m_Path: Pelvis/LeftLeg/LeftThigh/LeftTibia
+    m_Weight: 1
+  - m_Path: Pelvis/LeftLeg/LeftThigh/LeftTibia/LeftFoot
+    m_Weight: 1
+  - m_Path: Pelvis/RightLeg
+    m_Weight: 1
+  - m_Path: Pelvis/RightLeg/RightThigh
+    m_Weight: 1
+  - m_Path: Pelvis/RightLeg/RightThigh/RightTibia
+    m_Weight: 1
+  - m_Path: Pelvis/RightLeg/RightThigh/RightTibia/RightFoot
+    m_Weight: 1
+  - m_Path: Pelvis/Spine
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/LeftClavicle
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/LeftClavicle/LeftForearm
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/LeftClavicle/LeftForearm/LeftArm
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/LeftClavicle/LeftForearm/LeftArm/LeftHand
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/Neck
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/Neck/Head
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/RightClavicle
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/RightClavicle/RightForearm
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/RightClavicle/RightForearm/RightArm
+    m_Weight: 0
+  - m_Path: Pelvis/Spine/RightClavicle/RightForearm/RightArm/RightHand
+    m_Weight: 0
